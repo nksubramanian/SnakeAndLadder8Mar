@@ -1,4 +1,4 @@
-class Printer:
+class Display:
   @staticmethod
   def print_screen(position_object):
     print("You are in position " + str(position_object.position) + " and availabe money is " + str(position_object.money_available))
